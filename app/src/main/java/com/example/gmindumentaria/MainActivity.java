@@ -9,9 +9,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import android.content.Intent;
 import android.net.Uri;
-import android.widget.Button;
 import android.widget.ImageButton;
-
+import android.widget.TextView;
+import com.example.gmindumentaria.Producto;
+import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         //valores precio dinamico
-
         TextView precio = findViewById(R.id.Text_Precio);
         Producto p1 = new Producto("Calzado", 35000);
 
@@ -51,12 +51,6 @@ public class MainActivity extends AppCompatActivity {
             );
             startActivity(intent);
         });
-
-
-
-
-
-
 
 
 

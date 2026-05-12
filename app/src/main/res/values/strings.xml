@@ -1,3 +1,4 @@
 <resources>
     <string name="Titulo">GM indumentaria</string>
+    <string name="Precio_producto">%s - Precio: $%d</string>
 </resources>
