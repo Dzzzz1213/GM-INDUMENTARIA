@@ -27,7 +27,11 @@ public class MainActivity extends AppCompatActivity {
         int valor = 35000;
         String producto = "calzado";
         precio.setText(
-                getString(R.string.Precio_producto,producto,valor)
+                getString(
+                        R.string.Precio_producto,
+                        p1.nombre,
+                        p1.precio
+                )
         );
 
         //BOTONES INSTAGRAM/WHATSAPP
