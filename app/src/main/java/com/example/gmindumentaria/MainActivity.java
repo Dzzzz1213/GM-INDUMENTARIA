@@ -21,6 +21,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        //valores precio dinamico
+
+        TextView precio = findViewById(R.id.Text_Precio);
+        int valor = 35000;
+        String producto = "calzado";
+        precio.setText(
+                getString(R.string.Precio_producto,producto,valor)
+        );
+
         //BOTONES INSTAGRAM/WHATSAPP
 
         ImageButton btnIG = findViewById(R.id.ContactoInstagram);
