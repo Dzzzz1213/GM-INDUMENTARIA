@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         //valores precio dinamico
 
         TextView precio = findViewById(R.id.Text_Precio);
-        int valor = 35000;
-        String producto = "calzado";
+        Producto p1 = new Producto("Calzado", 35000);
+
         precio.setText(
                 getString(
                         R.string.Precio_producto,
